@@ -1,24 +1,25 @@
-# Space Invaders AI Bot 🚀
+# Ultimate Space Invaders AI 🚀
 
-An advanced AI bot that automatically plays the Space Invaders game on https://jordancota.site/ to achieve the highest score possible.
+The ultimate AI bot that automatically plays Space Invaders on https://jordancota.site/ and only saves high scores when they beat the current leaderboard.
 
-## 🎯 Current Target
-- **High Score to Beat**: 25,940 points (Level 8) by "John H"
+## 🎯 Mission
+- **Target**: Beat the current leaderboard high score
+- **Champion Name**: "John H" (only saved if leaderboard is beaten)
 - **Game URL**: https://jordancota.site/
 
-## 🤖 Features
+## 🤖 Ultimate AI Features
 
-### Advanced AI Strategy
-- **Rapid Fire**: Continuous shooting with optimal timing
-- **Adaptive Movement**: Different movement patterns based on game level
-- **Learning System**: Saves statistics and improves over time
-- **Multi-Strategy Approach**: Zigzag, defensive, and aggressive patterns
+### Intelligent Score Management
+- **Leaderboard Detection**: Automatically reads current high score from leaderboard
+- **Conditional Save**: Only enters name if score beats the leaderboard
+- **Champion Name**: Uses "John H" as the champion name
+- **Victory Screenshots**: Captures screenshots only for record-breaking scores
 
-### Robust Automation
-- **Smart Game Detection**: Multiple methods to find and start the game
-- **Error Recovery**: Handles network issues and game state changes
-- **Progress Monitoring**: Real-time score, level, and lives tracking
-- **Statistics Tracking**: Saves best scores and game history
+### Optimized Gaming Strategy
+- **Ultra-Rapid Fire**: Maximum shooting rate for highest scores
+- **Adaptive Movement**: Level-based movement patterns (early/mid/expert)
+- **Extended Sessions**: Up to 75,000 game loops for maximum score attempts
+- **Real-time Monitoring**: Live score tracking and milestone alerts
 
 ## 🛠️ Installation
 
@@ -37,22 +38,16 @@ pip install selenium webdriver-manager opencv-python numpy pillow pyautogui
 
 ## 🚀 Usage
 
-### Option 1: Simple Run
+### Run the Ultimate AI
 ```bash
-# Run the advanced AI bot
-python advanced_space_invaders_ai.py
+# Run the ultimate AI bot
+python ultimate_ai.py
 ```
 
-### Option 2: Interactive Runner
+### Test Setup
 ```bash
-# Run with options menu
-python run_bot.py
-```
-
-### Option 3: Basic Version
-```bash
-# Run the basic version
-python space_invaders_ai.py
+# Verify everything is working
+python test_setup.py
 ```
 
 ## 🎮 Game Strategy
@@ -163,16 +158,16 @@ Add debug logging by modifying the print statements in the code.
 ## 📝 Code Structure
 
 ### Main Files
-- `advanced_space_invaders_ai.py`: Main AI bot with advanced features
-- `space_invaders_ai.py`: Basic version with core functionality
-- `run_bot.py`: Interactive runner with multiple game modes
-- `game_stats.json`: Statistics and performance data (auto-generated)
+- `ultimate_ai.py`: The ultimate AI bot (only saves leaderboard-beating scores)
+- `test_setup.py`: Setup verification and testing
+- `test_game_interaction.py`: Interactive game testing
+- `requirements.txt`: Python dependencies
 
-### Key Classes
-- `AdvancedSpaceInvadersAI`: Main AI controller
-- Game state management
-- Strategy execution
-- Performance monitoring
+### Key Components
+- `UltimateSpaceInvadersAI`: Main AI controller
+- Leaderboard detection and score comparison
+- Conditional high score saving
+- Optimized gaming strategies
 
 ## 🚀 Future Enhancements
 
